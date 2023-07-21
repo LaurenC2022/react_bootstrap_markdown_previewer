@@ -1,6 +1,6 @@
 # Free Code Camp - Markdown Previewer solution
 
-This is a solution to the [Build a Random Quote Machine challenge on Free Code Camp](https://www.freecodecamp.org/learn/front-end-development-libraries/).
+This is a solution to the [Build a Markdown Previewer challenge on Free Code Camp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer).
 
 ## Table of contents
 

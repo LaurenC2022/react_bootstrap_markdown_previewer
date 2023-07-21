@@ -15,6 +15,18 @@ const App = () => {
         <Textarea id="editor" />
         <Previewer id="preview" />
       </div>
+      <br />
+      <br />
+      <footer className="text-center">
+        <p>
+          Markdown Previewer built by Lauren Collins.
+          <br />
+          Portfolio webstite found at{" "}
+          <a href="https://laurenCollins.dev" target="_blank">
+            www.LaurenCollins.dev
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
