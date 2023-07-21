@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+
+body {
+  background-color: darkgreen;
+  background-image: url("matrix-356024_640.jpg");
+}
+
+#previewerContainer,
+textarea,
+#textareaContainer,
+header {
+  background-color: black;
+}
+
+#textareaContainer {
+  height: 15rem;
+}
+
+textarea {
+  height: 13rem;
+}
+
+#previewerContainer {
+  height: 25rem;
+}
