@@ -1,22 +1,27 @@
 import { createRoot } from "react-dom/client";
 import Previewer from "./Previewer";
-import EditorView from "./Textarea";
+import Editor from "./Editor";
 import "./style.scss";
-import * as bootstrap from "bootstrap";
-import Textarea from "./Textarea";
+import { useState } from "react";
+
+// import * as bootstrap from "bootstrap";
 
 const App = () => {
+  const [markdown, setmarkdown] = useState(
+    "# Welcome to my React Markdown Previewer!",
+  );
+
   return (
     <div>
       <header className="row pt-2 mb-5">
         <h1 className="text-center">Markdown Previewer</h1>
       </header>
       <div className="vstack gap-3  align-items-center">
-        <Textarea id="editor" />
-        <Previewer id="preview" />
+        <Editor markdown={markdown} setmarkdown={setmarkdown} id="editor" />
+        <Previewer id="preview">{markdown}</Previewer>
       </div>
       <br />
-      <br />
+
       <footer className="text-center">
         <p>
           Markdown Previewer built by Lauren Collins.

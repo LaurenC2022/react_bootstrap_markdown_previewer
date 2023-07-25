@@ -56,9 +56,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Passing state in react to sibling components. React passes data from parent to child. Components should be stand alone and reusable. To use react in this way, I used the following code and pass pieces of state in a way that all the components are reusable.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -70,7 +68,7 @@ To see how you can add code snippets, see below:
 }
 ```
 
-```js
+```jsx
 const proudOfThisFunc = () => {
   console.log("🎉");
 };
@@ -83,6 +81,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ### Continued development
 
 to do's
+
+- add renderers function and pass as atribute to Markdown. This will fix img overflow problem in markdown: https://github.com/remarkjs/react-markdown/issues/174
 
 - make views expand and collapse
 - make better readme page
@@ -98,6 +98,8 @@ to do's
 - add to website
 
 - scroll inside the previewer and editor when content is long, scroll smooth setting
+
+- dark & light mode
 
 ### Useful resources
 
