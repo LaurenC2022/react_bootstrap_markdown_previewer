@@ -40,6 +40,15 @@ const App = () => {
 
       <footer className="text-center">
         <p>
+          Markdown Previewer Source Code can be found at{" "}
+          <a
+            href="https://github.com/LaurenC2022/react_bootstrap_markdown_previewer"
+            target="_blank"
+          >
+            https://github.com/LaurenC2022/react_bootstrap_markdown_previewer
+          </a>
+        </p>
+        <p>
           Markdown Previewer built by Lauren Collins.
           <br />
           Portfolio webstite found at{" "}
