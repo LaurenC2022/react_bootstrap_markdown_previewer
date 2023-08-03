@@ -1,8 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 * {
-  color: rgb(255, 255, 255);
   line-height: 1.5;
+}
+h2 {
+  color: black;
+}
+
+#previewerContainer {
+  min-height: 40vh;
 }
 
 body {
@@ -12,9 +18,15 @@ body {
 
 #previewerContainer,
 textarea,
-#textareaContainer,
+#textareaContainer {
+  color: black;
+  background-color: green;
+  border-color: black;
+}
+
 header {
   background-color: black;
+  color: greenyellow;
 }
 
 #textareaContainer {
@@ -27,4 +39,12 @@ textarea {
 
 #previewerContainer {
   height: 25rem;
+}
+
+footer {
+  color: white;
+}
+
+textarea {
+  resize: none;
 }

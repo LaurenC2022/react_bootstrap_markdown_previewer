@@ -1,19 +1,8 @@
 const Editor = ({ markdown, setmarkdown }) => {
-  // const [editorInput, seteditorInput] = useState(
-  //   "#Welcome to my React Markdown Previewer!",
-  // );
-
-  // const cleanMarkdown = (e) => {
-  //   let markdown = e.target.value;
-  //   console.log(markdown);
-  //   // markdown = markdown.replace(/<[^>]*>?/gm, "");
-  //   // console.log(markdown);d
-  //   setmarkdown(markdown);
-  // };
   return (
     <div
       id="textareaContainer"
-      className="border-top border-light mx-5 w-50 rounded"
+      className="border-top border-light mx-5 w-50 rounded border-dark"
     >
       <h2 className="ps-1">
         <i className="fa fa-free-code-camp" title="no-stack-dub-sack"></i>{" "}

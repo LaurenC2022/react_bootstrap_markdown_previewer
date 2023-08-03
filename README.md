@@ -82,24 +82,26 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 to do's
 
-- add renderers function and pass as atribute to Markdown. This will fix img overflow problem in markdown: https://github.com/remarkjs/react-markdown/issues/174
+- make site more like the sample, with window resizing/ make views expand and collapse
+- remove default textarea resizing option on botton right
 
-- make views expand and collapse
+- add renderers function and pass as atribute to Markdown. This will fix img overflow problem in markdown:
+
+  - https://github.com/remarkjs/react-markdown/issues/174
+  - https://jacobwicks.github.io/2020/06/19/rendering-markdown-and-resizing-images-with-react-markdown.html
+
 - make better readme page
 
-- make app functional with React
-
-- Previewer should have a min and vary in height depending on the lenght of the input text
+- Previewer should have a minHeight and vary in height depending on the lenght of the input text. Resizing featured mentioned above should cause scroll with overflow-auto when preview is made smaller by user
 
 - change the image of matrix background to moving
+- get .md from gitHub static file
 
 - upload app to the internet
 - submit to fcc
 - add to website
 
-- scroll inside the previewer and editor when content is long, scroll smooth setting
-
-- dark & light mode
+- maximize learning through reading the docs for react, vite, javascript, css, bootstrap, and etc., writing documentation/ commenting code for this project, and writing blog posts
 
 ### Useful resources
 

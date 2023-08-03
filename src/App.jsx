@@ -3,13 +3,29 @@ import Previewer from "./Previewer";
 import Editor from "./Editor";
 import "./style.scss";
 import { useState } from "react";
-
+import { useEffect } from "react";
+// import initialMarkDown from "./initialMarkDown.json";
 // import * as bootstrap from "bootstrap";
 
 const App = () => {
-  const [markdown, setmarkdown] = useState(
-    "# Welcome to my React Markdown Previewer!",
-  );
+  // const [markdown, setmarkdown] = useState(initialMarkDown);
+
+  const [markdown, setmarkdown] = useState(``);
+
+  //Dynamically Load Markdown files into React
+  useEffect(() => {
+    //import is a dynamic import
+    import(`./initialMarkDown.md`)
+      .then((res) => {
+        //fetch:
+        //default is the default export of the module
+        //res is the module itself
+        fetch(res.default)
+          .then((res) => res.text())
+          .then((res) => setmarkdown(res));
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <div>
